@@ -223,7 +223,7 @@ line-height:2.5rem;
 }
 .info{
   text-align: center!important;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/index.jpg");
   color: #fff;
   padding-bottom: 6rem;
 }
@@ -282,6 +282,9 @@ font-size:1.5em;
 }
 .lead{
   text-align: center;
+}
+.lead h2{
+  font-size: 24px;
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
 color:#fff;
