@@ -5,25 +5,9 @@
 </head>
  
 <body>
-    <table width="100%">
-        <tr>
-            <td colspan="2">
-                <tiles:insertAttribute name="header" />
-            </td>
-        </tr>
-        <tr>
-            <td width="20%" nowrap="nowrap">
-                 <tiles:insertAttribute name="menu" />
-             </td>
-            <td width="80%">
-                 <tiles:insertAttribute name="body" />
-             </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                 <tiles:insertAttribute name="footer" />
-            </td>
-        </tr>
-    </table>
+    <tiles:insertAttribute name="nav" />
+    <tiles:insertAttribute name="header" />        
+    <tiles:insertAttribute name="body" />       
+    <tiles:insertAttribute name="footer" />   
 </body>
 </html>

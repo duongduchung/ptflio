@@ -6,22 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class MainController {
-
-	@RequestMapping(value="/hello")
-	public String showViewHello(Model model) {
-		model.addAttribute("mgs", "Hello. Spring Framework.");
-		System.out.println("/hello");
-		return "hello";
-	}
-	
-	@RequestMapping(value="/home")
+public class MainController {	
+	@RequestMapping(value="/")
 	public ModelAndView showViewHome() {
 		ModelAndView modelAndView = new ModelAndView("home");
 		modelAndView.addObject("mgs", "Tiles Topic.");
 		System.out.println("/home");
 		return modelAndView;
-	}
-	
-	
+	}	
 }
